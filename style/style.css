@@ -17,11 +17,43 @@
     /* height: 650px; */
     margin: auto;
 }
+
+.btn{
+    background-color: #DD0000;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
 /* banner section */
 .banner{
     display: flex;
+    justify-content: space-around;
     align-items: center;
     background-color: black;
-    color: white;
+    color: #FFFFFF;
     border-radius: 10px;
+}
+.banner-left{
+    max-width: 530px;
+}
+.banner-left h2{
+    font-size: 60px;
+    font-weight: bold;
+    
+}
+.banner-left p{
+    font-size: 16px;
+    margin: 15px 0;
 }
