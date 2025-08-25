@@ -67,6 +67,36 @@
 }
 
 
+/* upcoming matches style */
+.upcoming-matches{
+    display: flex;
+    padding: 50px 0;
+    gap: 20px;
+}
+
+.upcoming-matches-left{
+    width: 25%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+    padding: 25px;
+    height: fit-content;
+}
+.upcoming-matches-left button{
+    margin: 15px 0;
+}
+.upcoming-matches-left .btn:nth-child(1),
+.upcoming-matches-left .btn:nth-child(2){
+    background-color: white;
+    color: black;
+}
+
+.upcoming-matches-right{
+    width: 75%;
+}
+
+
 
 
 
