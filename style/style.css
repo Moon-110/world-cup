@@ -44,18 +44,26 @@
     background-color: black;
     color: #FFFFFF;
     border-radius: 10px;
+    margin: 50px auto;
 }
 .banner-left{
     max-width: 530px;
 }
 .banner-left h2{
-    font-size: 60px;
+    font-size: 3.5rem;
     font-weight: bold;
+    line-height: 70px;
+    max-width: 70%;
     
 }
 .banner-left p{
-    font-size: 16px;
+    font-size: 1rem;
     margin: 15px 0;
+    max-width: 70%;
+}
+
+.banner-right img{
+    display: block;
 }
 
 
